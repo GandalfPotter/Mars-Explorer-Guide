@@ -34,4 +34,4 @@ Follow the instructions carefully.
 
 ## questions/problems?
 
-You can direct your questions and/or issues to the (Terran Labs Discord Server)[https://discord.gg/dxTFZRM] in the __mars_xplr__ channel.<br>
+You can direct your questions and/or issues to the [Terran Labs Discord Server](https://discord.gg/dxTFZRM) in the __mars_xplr__ channel.<br>
