@@ -1,3 +1,5 @@
+![Mars Explorer Icon](LOGO.png)
+
 # marsxplr guide
 
 a guide to playing this old gem of a game again
