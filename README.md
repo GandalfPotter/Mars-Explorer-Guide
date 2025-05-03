@@ -1,48 +1,37 @@
-# guide to marsxplr<br>
-a guide to playing the game Mars Explorer long after its discontinuation<br>
+# marsxplr guide
+
+a guide to playing this old gem of a game again
+
+## what has changed
+
+Back in the day, you would download the Mars Explorer installer from marsxplr.com.<br>
+You also used to be able to play it in browser using unity web player<br>
+and it was a widget on mac.<br>
 <br>
-## downloading Mars Explorer<br>
-you can still download marsplxr from [the wayback machine page](http://web.archive.org/web/20151020124336/http://marsxplr.com/view-267)<br>
-or you can download it from [lamps archive](https://gitea.moe/lamp/dat.marsxplr.com-mirror/src/branch/master/dat.marsxplr.com/222)<br>
+Now, if you try to download from that site today, the windows version can install and run,<br>
+but the mac app and widget do not work unless you are on a somewhat old version of mac os.<br>
 <br>
-## installing marsxplr<br>
-marsxplr still more or less works on modern versions of windows,<br>
-<br>
-but it is not functional on newer versions of macos.<br>
-you can run marsxplr using W.I.N.E up until macos catalina,<br>
-which doesnt support 32 bit applications.<br>
-<br>
-you can only play marsxplr on linux using windows compatability layers,<br>
-like W.I.N.E. or playonlinux.<br>
-<br>
-## playing marsxplr<br>
-### whirlds<br>
-pretty much all of the whirlds shown in the original whirld list are no longer being hosted,<br>
-and cannot be played through traditional means,<br>
-but fear not, many whirlds have been archived by [lamp](https://gitea.moe/lamp/whirlds)<br>
-to play these whirlds you must copy a link to a "Whirld.utw" file (with some formatting changes).<br>
-for all whirlds, you must change the beginning "https" to "http" in order for it to work in marsxplr,<br>
-and if there are any special characters in the whirld link, you must replace them with their html code counterparts,<br>
-for example: space = %20, double quote = %34, apostraphe = %37.<br>
-so<br>
-```http://gitea.moe/lamp/whirlds/raw/branch/master/ibcf's World Backups/World Backups 2/Aubrey Falconer's Sky Bridge/Whirld.utw```<br>
-for example would turn into<br>
-```http://gitea.moe/lamp/whirlds/raw/branch/master/ibcf%27s%20World%20Backups/World%20Backups%202/Aubrey%20Falconer%27s%20Sky%20Bridge/Whirld.utw```<br>
-once you have a correctly formatted whirld link, paste it into the custom whirld url box and then play.<br>
-if it failed to load, check if the you typed/formatted the url correctly.<br>
-<br>
-### joining/hosting<br>
-now that the marsxplr master servers have been shut down, games will no longer show in the list,<br>
-the only option for joining games is direct connect, so you need an ip address and a port number to join an active hosted game.<br>
-<br>
-again, as the master servers are shut down, you must port forward all games manually.<br>
-you can do this by adding port 2500 tcp/udp to your routers port forwarding settings,<br>
-or you can enter 2500 tcp/udp into a portmapping software like [upnp portmapper](https://sourceforge.net/projects/upnp-portmapper/)<br>
-<br>
-## conclusion<br>
-the age of marsxplr is past, but not lost forever.<br>
-its still possible to relive the nostalgia, with some work.<br>
-<br>
-if you have anything you would like to add/change in this guide, please make a pull request.<br>
-if you have any further questions, please direct them to the awesome people on the [terran labs discord](https://discord.gg/dxTFZRM)<br>
-i hope this guide helps give you the opportunity to relive the martian experience after all these years.
+In addition to this, if you run the old windows game, you may notice that none of the worlds work<br>
+and multiplayer doesnt work anymore (unless you manually port forward a game).<br>
+
+## solution
+
+The marsxplr community has made it possible to play worlds and use multiplayer again<br>
+through the use of a patch to the marsxplr game, as well as community run game servers,<br>
+
+## how to play
+
+### method 1
+
+Download a [patched version of Mars Explorer](https://drive.google.com/file/d/1vxM-dJ9OBhHoUq7cJvLBeqhkFTm-g3bc/view?usp=sharing).<br>
+Simply download, unzip and run the game from the folder.<br>
+
+### method 2
+
+If you dont feel like downloading a 3rd party version of Mars Explorer from an unverified source,<br>
+you can patch the game you already have installed using a [simple python script](https://github.com/VIA256/marsxplr_patch).<br>
+Follow the instructions carefully.
+
+## questions/problems?
+
+You can direct your questions and/or issues to the (Terran Labs Discord Server)[https://discord.gg/dxTFZRM] in the __mars_xplr__ channel.<br>
