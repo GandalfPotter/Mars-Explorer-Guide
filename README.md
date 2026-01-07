@@ -22,7 +22,7 @@ It will be labeled __marsxplr-4.x.x_MacOS_WineBundled__
 
 ### MacOS with W.I.N.E (Apple Silicon)
 
-Download the version for __Catalina and Later on Intel CPUs__ entry and run it using [Rosetta](https://support.apple.com/en-us/102527).
+Download the version for __Catalina and Later on Intel CPUs__ and run it using [Rosetta](https://support.apple.com/en-us/102527).
 If Rosetta does not prompt an install automatically when running the app, try running this command in terminal:
 `softwareupdate --install-rosetta` and running the app once it installs.
 
